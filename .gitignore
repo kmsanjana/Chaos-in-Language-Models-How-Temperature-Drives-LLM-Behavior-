@@ -1,0 +1,48 @@
+# Environment & Secrets
+.env
+*.env
+**/.env
+
+# HuggingFace token (never commit this)
+hf_*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Auto-extracted text files (generated from PDFs)
+*_extracted.txt
+
+# Large model caches (do not commit)
+*.bin
+*.safetensors
+*.pt
+*.pth
+transformers_cache/
+huggingface/
+
+# Log files
+*.log
