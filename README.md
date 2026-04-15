@@ -294,8 +294,6 @@ Period 1–2               Period 3–8                Period ∞
 
 ## � Visual Results
 
-> Save each screenshot to `assets/` using the filename shown. The README will render them automatically on GitHub.
-
 ---
 
 ### 🎓 Project Overview
@@ -312,7 +310,7 @@ Period 1–2               Period 3–8                Period ∞
 
 **Fig 2 — GPT-2 & DistilGPT-2: Symbol Streams Across Temperatures**
 *Color-coded barcodes show how sentence diversity changes from T=0.10 (single-color block) to T=1.00 (many distinct colors). GPT-2 flips to creative outputs earlier than DistilGPT-2.*
-<img width="513" height="604" alt="image" src="https://github.com/user-attachments/assets/2d48d985-49b4-490c-a157-e308cc022770" />
+<img width="600" height="604" alt="image" src="https://github.com/user-attachments/assets/2d48d985-49b4-490c-a157-e308cc022770" />
 
 
 **Fig 3 — GPT-2 XL & GPT-Neo 1.3B: Symbol Streams Across Temperatures**
