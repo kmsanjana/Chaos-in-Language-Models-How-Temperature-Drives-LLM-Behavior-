@@ -319,7 +319,8 @@ Period 1–2               Period 3–8                Period ∞
 **Fig 4 — Comparative Table: All Models × All Temperatures**
 *Side-by-side summary of behavioral regime for each of the 4 models across 9 temperature values (0.10 → 1.50).*
 
-<img width="460" height="456" alt="image" src="https://github.com/user-attachments/assets/1ab12563-1584-43f2-8f5e-5449024305ac" />
+<img width="975" height="1062" alt="image" src="https://github.com/user-attachments/assets/d980ff0c-66a2-4665-93a7-2386a370ac2d" />
+
 
 
 ---
