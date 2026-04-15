@@ -310,6 +310,7 @@ Period 1–2               Period 3–8                Period ∞
 
 **Fig 2 — GPT-2 & DistilGPT-2: Symbol Streams Across Temperatures**
 *Color-coded barcodes show how sentence diversity changes from T=0.10 (single-color block) to T=1.00 (many distinct colors). GPT-2 flips to creative outputs earlier than DistilGPT-2.*
+
 <img width="897" height="497" alt="image" src="https://github.com/user-attachments/assets/966ab1a6-90da-4a29-ba9f-317e07db4cf9" />
 
 <img width="930" height="524" alt="image" src="https://github.com/user-attachments/assets/00b6f625-981a-4322-9cc1-ebfff3fe3491" />
@@ -319,6 +320,10 @@ Period 1–2               Period 3–8                Period ∞
 
 **Fig 3 — GPT-2 XL & GPT-Neo 1.3B: Symbol Streams Across Temperatures**
 *GPT-2 XL locks firmly at T=0.10–0.50 then diversifies sharply. GPT-Neo mixes flat/sphere contradictions early and drifts into meta-commentary at high temps.*
+
+<img width="1155" height="629" alt="image" src="https://github.com/user-attachments/assets/de7c9258-3d43-4314-a176-3489c1e089a8" />
+
+<img width="1152" height="615" alt="image" src="https://github.com/user-attachments/assets/4324f1c7-8fce-45c1-9fc4-079652398fc6" />
 
 
 
