@@ -310,12 +310,16 @@ Period 1–2               Period 3–8                Period ∞
 
 **Fig 2 — GPT-2 & DistilGPT-2: Symbol Streams Across Temperatures**
 *Color-coded barcodes show how sentence diversity changes from T=0.10 (single-color block) to T=1.00 (many distinct colors). GPT-2 flips to creative outputs earlier than DistilGPT-2.*
-<img width="600" height="604" alt="image" src="https://github.com/user-attachments/assets/2d48d985-49b4-490c-a157-e308cc022770" />
+<img width="897" height="497" alt="image" src="https://github.com/user-attachments/assets/966ab1a6-90da-4a29-ba9f-317e07db4cf9" />
+
+<img width="930" height="524" alt="image" src="https://github.com/user-attachments/assets/00b6f625-981a-4322-9cc1-ebfff3fe3491" />
+
+
 
 
 **Fig 3 — GPT-2 XL & GPT-Neo 1.3B: Symbol Streams Across Temperatures**
 *GPT-2 XL locks firmly at T=0.10–0.50 then diversifies sharply. GPT-Neo mixes flat/sphere contradictions early and drifts into meta-commentary at high temps.*
-<img width="519" height="592" alt="image" src="https://github.com/user-attachments/assets/b8b6f9e0-d1da-47bd-9712-74a891d313d8" />
+
 
 
 
@@ -323,13 +327,6 @@ Period 1–2               Period 3–8                Period ∞
 *Side-by-side summary of behavioral regime for each of the 4 models across 9 temperature values (0.10 → 1.50).*
 
 <img width="460" height="456" alt="image" src="https://github.com/user-attachments/assets/1ab12563-1584-43f2-8f5e-5449024305ac" />
-
-
-**Fig 5 — Key Observations & Conclusions**
-*Threshold behavior, hallucination examples (Earth diameter = 180 miles), surrealism, meta-behavior, and the optimal tradeoff zone (T ≈ 0.55–0.70).*
-
-<img width="335" height="427" alt="image" src="https://github.com/user-attachments/assets/4cc7ec69-7f77-4cd4-aa87-3c2263d46f31" />
-<img width="336" height="109" alt="image" src="https://github.com/user-attachments/assets/9a743861-1c8f-465b-a318-ba1413a789bd" />
 
 
 ---
