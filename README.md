@@ -294,18 +294,6 @@ Period 1–2               Period 3–8                Period ∞
 
 ## � Visual Results
 
----
-
-### 🎓 Project Overview
-
-**Fig 1 — Title Slide: How Temperature Controls LLM Behavior**
-*Group 6 · Models tested: GPT-2, DistilGPT-2, GPT-2 XL, EleutherAI/GPT-Neo-1.3B*
-
-<img width="600" height="589" alt="image" src="https://github.com/user-attachments/assets/9d9e2428-c9f7-4767-abcd-3cb467a55efd" />
-
-
----
-
 ### 🌡️ Module 1 — Temperature Effects on Real LLMs
 
 **Fig 2 — GPT-2 & DistilGPT-2: Symbol Streams Across Temperatures**
