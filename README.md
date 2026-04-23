@@ -296,7 +296,7 @@ Period 1–2               Period 3–8                Period ∞
 
 ### 🌡️ Module 1 — Temperature Effects on Real LLMs
 
-**Fig 2 — GPT-2 & DistilGPT-2: Symbol Streams Across Temperatures**
+**Fig 1 — GPT-2 & DistilGPT-2: Symbol Streams Across Temperatures**
 *Color-coded barcodes show how sentence diversity changes from T=0.10 (single-color block) to T=1.00 (many distinct colors). GPT-2 flips to creative outputs earlier than DistilGPT-2.*
 
 <img width="897" height="497" alt="image" src="https://github.com/user-attachments/assets/966ab1a6-90da-4a29-ba9f-317e07db4cf9" />
@@ -306,7 +306,7 @@ Period 1–2               Period 3–8                Period ∞
 
 
 
-**Fig 3 — GPT-2 XL & GPT-Neo 1.3B: Symbol Streams Across Temperatures**
+**Fig 2 — GPT-2 XL & GPT-Neo 1.3B: Symbol Streams Across Temperatures**
 *GPT-2 XL locks firmly at T=0.10–0.50 then diversifies sharply. GPT-Neo mixes flat/sphere contradictions early and drifts into meta-commentary at high temps.*
 
 <img width="1155" height="629" alt="image" src="https://github.com/user-attachments/assets/de7c9258-3d43-4314-a176-3489c1e089a8" />
@@ -316,7 +316,7 @@ Period 1–2               Period 3–8                Period ∞
 
 
 
-**Fig 4 — Comparative Table: All Models × All Temperatures**
+**Fig 3 — Comparative Table: All Models × All Temperatures**
 *Side-by-side summary of behavioral regime for each of the 4 models across 9 temperature values (0.10 → 1.50).*
 
 <img width="975" height="1062" alt="image" src="https://github.com/user-attachments/assets/d980ff0c-66a2-4665-93a7-2386a370ac2d" />
@@ -327,19 +327,19 @@ Period 1–2               Period 3–8                Period ∞
 
 ### 🔁 Module 2 — Logistic Map & Symbolic Dynamics
 
-**Fig 6 — Empirical Attractor Sequences vs. Temperature (GPT-Neo 1.3B)**
+**Fig 4 — Empirical Attractor Sequences vs. Temperature (GPT-Neo 1.3B)**
 *Period-2 attractors (BA, DE, EF) at low T; period-6 (KCKCKC), period-7 (ABCDEFG), period-10 (ABCBCBCDEF), and period-∞ (ABCDEFGHIJKLM) emerge as T rises — exactly mirroring the logistic map's period-doubling cascade.*
 
 <img width="1016" height="461" alt="image" src="https://github.com/user-attachments/assets/2a58a35b-bcbd-4fd6-9d43-4e0001db348d" />
 
 
 
-**Fig 7 — Empirical Attractor Periods vs. Logistic Control Parameter**
+**Fig 5 — Empirical Attractor Periods vs. Logistic Control Parameter**
 *Symbolic dynamics plot showing the period-doubling cascade (Period 2 → 4 → 8 → ∞) and periodic windows (3, 5, 6) embedded in the chaotic regime. The logistic parameter r maps directly to LLM temperature T.*
 
 ![Empirical Attractor Periods vs Logistic Parameter](assets/fig07_logistic_map_period_doubling.png)
 
-**Fig 8 — How the Logistic Map Reproduces the Empirical Sequence Bands**
+**Fig 6 — How the Logistic Map Reproduces the Empirical Sequence Bands**
 *Setup: A-band [0.48, 0.52], r sweep [3.40, 4.00], 220 steps, 30 initial conditions, 900-step transient discarded. Key finding: band placement is sensitive — too wide merges A with others; too narrow loses the signal entirely.*
 
 <img width="1027" height="538" alt="image" src="https://github.com/user-attachments/assets/766c1831-03bc-437a-ad07-f4a61586d4ee" />
@@ -349,13 +349,13 @@ Period 1–2               Period 3–8                Period ∞
 
 ### 🧲 Module 3 — ABDC Toy Transformer & Tipping Points
 
-**Fig 9 — Token Embedding Vectors: Role in Tipping Dynamics**
+**Fig 7 — Token Embedding Vectors: Role in Tipping Dynamics**
 *A=[0.4,−0.3] (initial seed), B=[0.8,0.0] (mid-range influencer), C=[−0.2,−0.2] (neutral), D=[0.9,0.5] (strong final attractor). The geometry of these vectors determines which token wins the context dot-product race.*
 
 <img width="1003" height="559" alt="image" src="https://github.com/user-attachments/assets/0bb0f066-f8fc-4534-8a37-a9371cccf194" />
 
 
-**Fig 10 — Trajectory: Baseline vs. Modified B-Embedding**
+**Fig 8 — Trajectory: Baseline vs. Modified B-Embedding**
 *Left (B_x=0.8): context moves quickly toward D, tips after 6 BBB tokens. Right (B_x=0.88): context circles B much longer before drifting to D. Modifying one embedding shifts the entire tipping geometry.*
 
 <img width="998" height="535" alt="image" src="https://github.com/user-attachments/assets/063a0207-52e1-4763-8afe-f7042d5b646b" />
@@ -365,13 +365,13 @@ Period 1–2               Period 3–8                Period ∞
 
 ### 🔤 Module 4 — Word Embeddings: GPT-2 vs Gemma-2-2b-it
 
-**Fig 11 — PCA 2D Embedding Comparison: Gemma-2-2b-it vs GPT-2**
+**Fig 9 — PCA 2D Embedding Comparison: Gemma-2-2b-it vs GPT-2**
 *Left (Gemma): "privacy" and "important" cluster closer together — smooth, cohesive semantic space. Right (GPT-2): words are more scattered, reflecting raw web co-occurrence patterns rather than deep semantic alignment.*
 
 <img width="1007" height="541" alt="image" src="https://github.com/user-attachments/assets/0fc8c6bc-d53d-4646-a412-fdf929536222" />
 
 
-**Fig 12 — Gemma-2-2b-it vs GPT-2: Qualitative Comparison Table**
+**Fig 10 — Gemma-2-2b-it vs GPT-2: Qualitative Comparison Table**
 *Three dimensions compared — embedding structure, context understanding, and semantic alignment — showing how instruction tuning (Gemma) produces richer, more intentional semantic geometry.*
 
 <img width="1001" height="555" alt="image" src="https://github.com/user-attachments/assets/1f4b6282-0478-4857-97b4-61a8f393e46a" />
