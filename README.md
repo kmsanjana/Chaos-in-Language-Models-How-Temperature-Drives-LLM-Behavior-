@@ -7,8 +7,7 @@
 
 <div align="center">
 
-**Group 6 · George Washington University · MS Data Science · Network Data Science**
-
+**George Washington University · MS Data Science · Network Data Science**
 *Dhwanil Mori · Jasreen Mehta · Sanjana Kadambe*
 
 </div>
