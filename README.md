@@ -5,15 +5,6 @@
 
 ---
 
-<div align="center">
-
-**George Washington University · MS Data Science · Network Data Science**
-*Dhwanil Mori · Jasreen Mehta · Sanjana Kadambe*
-
-</div>
-
----
-
 ## 🔭 The Big Idea
 
 When you ask an LLM a question, the answer you get depends heavily on the **temperature** parameter — a scalar that controls how randomly the model samples its next token. This project asks:
@@ -518,8 +509,9 @@ Basin of attraction ←→    Embedding geometry (dot product landscape)
 
 <div align="center">
 
-*Built with curiosity, Python, and a healthy appreciation for chaos.*
+*Built with curiosity, Python, and a healthy appreciation for LLMs and their chaos.*
 
-**George Washington University · Spring 2025**
+**George Washington University · MS Data Science · Network Data Science**
+*Dhwanil Mori · Jasreen Mehta · Sanjana Kadambe*
 
 </div>
